@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Programa_de_interconexion"
         mc:Ignorable="d"
-        Title="VentanaContratos" Height="450" Width="800">
+        Title="VentanaContratos" Height="481.132" Width="843.396">
     <Grid Margin="-1,0,1,0">
         <Label Content="II. Datos Del Contacto" HorizontalAlignment="Left" Height="24" Margin="48,19,0,0" VerticalAlignment="Top" Width="125"/>
         <Label Content="Puesto:" HorizontalAlignment="Left" Height="24" Margin="25,90,0,0" VerticalAlignment="Top" Width="57"/>
@@ -27,7 +27,7 @@
         <Label Content="Correo:" HorizontalAlignment="Left" Height="24" Margin="240,138,0,0" VerticalAlignment="Top" Width="57"/>
         <Label Content="Domicilio" HorizontalAlignment="Left" Height="24" Margin="240,178,0,0" VerticalAlignment="Top" Width="125"/>
         <Label Content="Num. Ext.:" HorizontalAlignment="Left" Height="24" Margin="241,238,0,0" VerticalAlignment="Top" Width="57"/>
-        <Label Content="Calle:" HorizontalAlignment="Left" Height="24" Margin="260,214,0,0" VerticalAlignment="Top" Width="38"/>
+        <Label Content="RPU:" HorizontalAlignment="Left" Height="24" Margin="463,331,0,0" VerticalAlignment="Top" Width="38"/>
         <Label Content="Num. Int.:" HorizontalAlignment="Left" Height="24" Margin="241,262,0,0" VerticalAlignment="Top" Width="57"/>
         <Label Content="Colonia:" HorizontalAlignment="Left" Height="24" Margin="241,286,0,0" VerticalAlignment="Top" Width="57"/>
         <Label Content="Codigo Postal:" HorizontalAlignment="Left" Height="24" Margin="216,308,0,0" VerticalAlignment="Top" Width="82"/>
@@ -39,7 +39,7 @@
         <RadioButton Content="Media Tensión" HorizontalAlignment="Left" Height="15" Margin="446,75,0,0" VerticalAlignment="Top" Width="97"/>
         <RadioButton Content="Baja Tensión" HorizontalAlignment="Left" Height="15" Margin="446,90,0,0" VerticalAlignment="Top" Width="97"/>
         <Label Content="Modalidad de la Solicitud" HorizontalAlignment="Left" Height="24" Margin="421,48,0,0" VerticalAlignment="Top" Width="147"/>
-        <TextBox HorizontalAlignment="Left" Height="17" Margin="311,219,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="97"/>
+        <TextBox HorizontalAlignment="Left" Height="17" Margin="513,332,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="97" TabIndex="12"/>
         <TextBox HorizontalAlignment="Left" Height="17" Margin="311,243,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="97"/>
         <TextBox HorizontalAlignment="Left" Height="17" Margin="311,73,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="97"/>
         <TextBox HorizontalAlignment="Left" Height="17" Margin="311,144,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="97"/>
@@ -61,6 +61,26 @@
         <TextBox HorizontalAlignment="Left" Height="17" Margin="103,97,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="97"/>
         <TextBox HorizontalAlignment="Left" Height="17" Margin="103,121,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="97"/>
         <TextBox HorizontalAlignment="Left" Height="17" Margin="103,73,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="97"/>
+        <TextBlock HorizontalAlignment="Left" Height="36" Margin="432,121,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="111"><Run Text="IV. Utilisacion de "/><LineBreak/><Run Text="la"/><Run Text=" "/><Run Text="Energía Producida"/></TextBlock>
+        <RadioButton Content="Consumo de Centros de Carga" HorizontalAlignment="Left" Height="17" Margin="446,184,0,0" VerticalAlignment="Top" Width="17"/>
+        <TextBlock HorizontalAlignment="Left" Height="33" Margin="463,178,0,0" TextWrapping="Wrap" Text="Consumo de Centros de Carga" VerticalAlignment="Top" Width="105"/>
+        <RadioButton Content="Consumo de Centros de Carga" HorizontalAlignment="Left" Height="17" Margin="446,220,0,0" VerticalAlignment="Top" Width="17"/>
+        <TextBlock HorizontalAlignment="Left" Height="33" Margin="463,214,0,0" TextWrapping="Wrap" Text="Consumo de Centros de Carga y Venta de Exedentes" VerticalAlignment="Top" Width="147"/>
+        <RadioButton Content="Consumo de Centros de Carga" HorizontalAlignment="Left" Height="17" Margin="446,255,0,0" VerticalAlignment="Top" Width="17"/>
+        <TextBlock HorizontalAlignment="Left" Height="22" Margin="463,254,0,0" TextWrapping="Wrap" Text="Venta Total" VerticalAlignment="Top" Width="105"/>
+        <TextBlock HorizontalAlignment="Left" Height="36" Margin="432,277,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="178" Text="V. Datos del Servicio Suministro Actual"/>
+        <Label Content="Calle:" HorizontalAlignment="Left" Height="24" Margin="260,214,0,0" VerticalAlignment="Top" Width="38"/>
+        <TextBox HorizontalAlignment="Left" Height="17" Margin="311,219,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="97"/> >
+        <TextBox HorizontalAlignment="Left" Height="17" Margin="513,363,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="97" TabIndex="12"/>
+        <TextBlock HorizontalAlignment="Left" Height="44" Margin="421,361,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="87" Text="Nivel de Tensión de Suministro:"/>
+        <TextBlock HorizontalAlignment="Left" Height="15" Margin="621,19,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="106" Text="VI. Central Electrica"/>
+        <TextBlock HorizontalAlignment="Left" Height="33" Margin="621,171,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="204" Text="VII. Manifestacion del Cumplimiento de las Espesificaciones Tecnicas Generales"/>
+        <RadioButton Content="Cogeneracion" HorizontalAlignment="Left" Height="15" Margin="647,216,0,0" VerticalAlignment="Top" Width="97"/>
+        <RadioButton Content="Eolico" HorizontalAlignment="Left" Height="15" Margin="647,231,0,0" VerticalAlignment="Top" Width="97"/>
+        <RadioButton Content="Biomasa" HorizontalAlignment="Left" Height="15" Margin="647,252,0,0" VerticalAlignment="Top" Width="97"/>
+        <RadioButton Content="Solar" HorizontalAlignment="Left" Height="15" Margin="647,267,0,0" VerticalAlignment="Top" Width="97"/>
+        <RadioButton Content="Cogeneracion" HorizontalAlignment="Left" Height="15" Margin="647,298,0,0" VerticalAlignment="Top" Width="97"/>
+        <RadioButton Content="Cogeneracion" HorizontalAlignment="Left" Height="15" Margin="647,283,0,0" VerticalAlignment="Top" Width="97"/>
 
     </Grid>
 </Window>
